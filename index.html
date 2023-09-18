@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <title>UKD</title>
+    <link rel="icon" href="img/ukd.jpg">
+</head>
+
+
+<body>
+    <main>
+        <div class="background"></div>
+    </main>
+    <div class="cover">
+        <div class="content">
+            <div class="animated-text">
+                <h2>Welcome<br> SYAFIQ STORE</h2>
+            </div>
+            <div class="img">
+                <img src="img/safiq.jpg" alt="" id="ukd">
+            </div>
+            <div class="link">
+                <a href="pesan.html" target="_blank"><img src="img/promo.png" alt="">PROMO PRODUCT</a>
+                <a href="https://api.whatsapp.com/send?phone=6282135751407&text=Saya Lihat IniDi Bio Anda"
+                    target="_blank"><img src="img/whatsapp.png" alt="">WhatsApp</a>
+                <a href="https://instagram.com/syafiq_store17?igshid=OGQ5ZDc2ODk2ZA==" target="_blank"><img
+                        src="img/instagram.png" alt="">Instagram</a>
+                <a href="https://www.facebook.com/faisal.H.M17?mibextid=eBUYbo" target="_blank"><img src="img/FB.svg"
+                        alt="">Facebook</a>
+                <a href="https://www.tiktok.com/@ir_faizal_h.m?_t=8flnwO1HMjy&_r=1" target="_blank"><img
+                        src="img/tiktok.png" alt="">Tiktok</a>
+                <a><img src="img/safiq.jpg" alt=""> SYAFIQ STORE</a>
+            </div>
+        </div>
+        <h1><a href="https://api.whatsapp.com/send?phone=6283890172516&text=Saya Lihat IniDi Bio SYAFIQ "
+                target="_blank">Dibuat
+                oleh UclukKaryaDigital.com 2023</a></h1>
+    </div>
+
+    <script>
+        const img = document.getElementById("ukd")
+        const srcpp = ["img/safiq.jpg", "img/safiq.jpg"]
+        let ppnmr = 1
+        setInterval(() => {
+            if (ppnmr > srcpp.length - 1) {
+                ppnmr = 0
+            }
+            img.src = srcpp[ppnmr]
+            ppnmr++
+        }, 4000)
+    </script>
+</body>
+<script src="main.js"></script>
+
+</html>
